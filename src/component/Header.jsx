@@ -1,7 +1,7 @@
 import React from 'react'
 import "../Styles/header.css"
 import { useState, useEffect } from 'react'
-import ThemeToggle from './ThemeToggle'
+import ThemeToggle from '../component/ThemeToggle'
 
  const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false)

@@ -1,6 +1,6 @@
 import React from 'react'
 import "../Styles/themetoggle.css"
-import  useTheme  from '../component/ThemeContext'
+import  {useTheme}  from '../component/ThemeContext'
 
  const ThemeToggle = () => {
     const { theme, toggleTheme } = useTheme()
