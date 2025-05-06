@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import useEmblaCarousel from "embla-carousel-react"
 import Autoplay from "embla-carousel-autoplay"
-import AnimateOnScroll  from "./AnimateOnScroll"
+import AnimateOnScroll  from "../component/AnimateOnScroll"
 import "../Styles/testimonialcarousel.css"
 
 const testimonials = [
@@ -96,7 +96,7 @@ const TestimonialCarousel =() => {
 
       <div className="testimonial-container">
         <AnimateOnScroll animation="fade-up">
-          <h2 className="testimonial-title">What Our Clients Say</h2>
+          <h2 className="testimonial-title">What my Clients Say</h2>
         </AnimateOnScroll>
 
         <AnimateOnScroll className="testimonial-carousel-container" animation="fade-up" delay={0.2}>

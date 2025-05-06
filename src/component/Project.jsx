@@ -1,4 +1,4 @@
-import AnimateOnScroll  from "./AnimateOnScroll"
+import AnimateOnScroll  from "../component/AnimateOnScroll"
 import "../Styles/project.css"
 
 const Project = () => {
