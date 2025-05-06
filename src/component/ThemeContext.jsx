@@ -1,6 +1,7 @@
 
 import { createContext, useContext, useEffect, useState } from "react"
 
+
 const ThemeContext = createContext({
   theme: "light",
   toggleTheme: () => {},
@@ -9,7 +10,6 @@ const ThemeContext = createContext({
 export function ThemeProvider({ children }) {
   const [theme, setTheme] = useState("light")
 
-  // Initialize theme from localStorage or system preference
   useEffect(() => {
     const savedTheme = localStorage.getItem("theme")
     const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches
@@ -34,3 +34,5 @@ export function ThemeProvider({ children }) {
 }
 
 export const useTheme = () => useContext(ThemeContext)
+
+export default ThemeContext
