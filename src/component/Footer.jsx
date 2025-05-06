@@ -9,7 +9,7 @@ const Footer =()=> {
       <div className="container footer-container">
         <AnimateOnScroll className="footer-logo" animation="fade-up">
           <a href="#" className="logo">
-            <span className="logo-highlight">Okeke's</span>Portfolio
+            <span className="logo-highlight">My</span>Portfolio
             <span className="logo-sparkle">✨</span>
           </a>
         </AnimateOnScroll>
