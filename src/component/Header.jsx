@@ -30,7 +30,7 @@ import ThemeToggle from '../component/ThemeToggle'
       <header className={`header ${scrolled ? "scrolled" : ""}`}>
         <div className="container header-container">
           <a href="#" className="logo">
-            <span className="logo-highlight">Okeke's</span>Portfolio
+            <span className="logo-highlight">my</span>Portfolio
             <span className="logo-sparkle">✨</span>
           </a>
   
