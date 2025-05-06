@@ -1,0 +1,128 @@
+.theme-toggle {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    position: relative;
+    width: 60px;
+    height: 30px;
+    outline: none;
+  }
+  
+  .theme-toggle-track {
+    background: linear-gradient(to right, var(--primary-light), var(--secondary-light));
+    border-radius: 30px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  [data-theme="dark"] .theme-toggle-track {
+    background: linear-gradient(to right, #1a1a2e, #16213e);
+  }
+  
+  .theme-toggle-thumb {
+    background-color: white;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  [data-theme="dark"] .theme-toggle-thumb {
+    transform: translateX(30px);
+    background-color: #2d3748;
+  }
+  
+  .theme-toggle-icon {
+    color: var(--primary);
+    transition: all 0.3s ease;
+  }
+  
+  .theme-toggle-icon.sun {
+    animation: spin 10s linear infinite;
+  }
+  
+  .theme-toggle-icon.moon {
+    color: #f1c40f;
+  }
+  
+  .theme-toggle-stars {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  [data-theme="dark"] .theme-toggle-stars {
+    opacity: 1;
+  }
+  
+  .star {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    width: 2px;
+    height: 2px;
+    opacity: 0;
+    animation: twinkle 2s infinite;
+  }
+  
+  [data-theme="dark"] .star {
+    opacity: 1;
+  }
+  
+  .star-1 {
+    top: 10px;
+    left: 35px;
+    animation-delay: 0.3s;
+  }
+  
+  .star-2 {
+    top: 5px;
+    left: 50px;
+    animation-delay: 0.7s;
+  }
+  
+  .star-3 {
+    top: 15px;
+    left: 45px;
+    animation-delay: 1.1s;
+  }
+  
+  @keyframes twinkle {
+    0%,
+    100% {
+      opacity: 0.2;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.2);
+    }
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
