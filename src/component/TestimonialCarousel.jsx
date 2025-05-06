@@ -10,7 +10,7 @@ const testimonials = [
     name: "Colin Victor",
     role: "Marketing Director",
     company: "CreativeMinds",
-    image: "public/pix2.jpg",
+    image: "/images/profilepix.jpg",
     quote:
       "Working with this developer was an absolute pleasure! She transformed our vision into a beautiful, functional website that exceeded our expectations. Her attention to detail and creative approach made all the difference.",
     rating: 5,
@@ -20,7 +20,7 @@ const testimonials = [
     name: "Cynthia Chioma",
     role: "Startup Founder",
     company: "TechLaunch",
-    image: "public/pix1.jpg",
+    image: "/images/pix3.jpg",
     quote:
       "I was blown away by the quality of work. Not only did she deliver a stunning website, but she also provided valuable insights that improved our user experience. The project was completed ahead of schedule and the communication was excellent.",
     rating: 5,
@@ -30,7 +30,7 @@ const testimonials = [
     name: "Terse Majesty",
     role: "E-commerce Manager",
     company: "StyleBoutique",
-    image: "public/picture.jpg",
+    image: "/images/pix2.jpg",
     quote:
       "Our online store has never looked better! The responsive design works flawlessly across all devices, and our conversion rate has increased by 40% since the redesign. I highly recommend her services to anyone looking for quality front-end development.",
     rating: 5,
@@ -40,7 +40,7 @@ const testimonials = [
     name: "David Thompson",
     role: "Creative Director",
     company: "DesignHub",
-    image: "public/pix2.jpg",
+    image: "/images/pix1.jpg",
     quote:
       "As a design agency, we have high standards for the developers we work with. She not only met but exceeded those standards with her technical skills and eye for design. Our clients have been thrilled with the results of our collaboration.",
     rating: 4,
@@ -50,7 +50,7 @@ const testimonials = [
     name: "Jessica Lee",
     role: "Product Owner",
     company: "InnovateApp",
-    image: "public/pix3.jpg",
+    image: "/images/picture.jpg",
     quote:
       "The attention to detail and commitment to creating a seamless user experience was impressive. Our app's interface is now intuitive, beautiful, and performs exceptionally well. We'll definitely be working together on future projects.",
     rating: 5,

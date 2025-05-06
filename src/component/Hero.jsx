@@ -45,7 +45,7 @@ import "../Styles/hero.css"
     
             <AnimateOnScroll className="hero-image-container" animation="fade-left" delay={0.4}>
               <div className="hero-image-wrapper">
-                <img src="public/profilepix.jpg" alt="Profile" className="hero-image" />
+                <img src="/images/profilepix.jpg" alt="Profile" className="hero-image" />
               </div>
             </AnimateOnScroll>
           </div>

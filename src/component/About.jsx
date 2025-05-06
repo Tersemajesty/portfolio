@@ -9,7 +9,7 @@ import "../Styles/about.css"
           <div className="container about-container">
             <AnimateOnScroll className="about-image-container" animation="fade-right">
               <div className="about-image-wrapper">
-                <img src="public/profilepix.jpg" alt="About Me" className="about-image" />
+                <img src="/images/profilepix.jpg" alt="About Me" className="about-image" />
               </div>
             </AnimateOnScroll>
     
