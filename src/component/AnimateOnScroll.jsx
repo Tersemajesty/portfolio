@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react"
-import "../Styles/animateOnScroll.css"
+import "../Styles/animateonscroll.css"
+
 
 
 const AnimateOnScroll = ({ children, animation = "fade-up", delay = 0, className = "", ...props })=> {
