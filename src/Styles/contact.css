@@ -25,7 +25,7 @@
   }
   
   .contact-card {
-    background-color: var(--card-bg);
+    /* background-color: var(--card-bg); */
     border-radius: 16px;
     padding: 30px;
     box-shadow: 0 10px 25px var(--shadow);
@@ -46,9 +46,10 @@
   .contact-card-text {
     color: var(--text-light);
     margin-bottom: 30px;
+    background: rebeccapurple;
+    position: relative;
+    right: 18px;
     line-height: 1.6;
-    position: inherit;
-    right: 10px;
     font-size: 20px;
     transition: var(--theme-transition);
   }
