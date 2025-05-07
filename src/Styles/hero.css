@@ -60,6 +60,7 @@
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    /* font-size: 20px; */
   }
   
   .hero-description {
