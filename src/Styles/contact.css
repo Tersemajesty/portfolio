@@ -46,7 +46,6 @@
   .contact-card-text {
     color: var(--text-light);
     margin-bottom: 30px;
-    background: rebeccapurple;
     position: relative;
     right: 18px;
     line-height: 1.6;
