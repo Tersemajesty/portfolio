@@ -58,8 +58,9 @@ const Contact = () => {
             <div className="contact-card">
               <h3 className="contact-card-title">Let's Connect</h3>
               <p className="contact-card-text">
-                I'm currently open to new opportunities and collaborations. Whether you have a question or just want to
-                say hi, I'll do my best to get back to you!
+                I'm currently open to new opportunities and collaborations. 
+                 Whether you have a question or <br />just want to
+                say hi, I'll do my best to get back to <br /> you!
               </p>
 
               <div className="contact-methods">

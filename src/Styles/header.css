@@ -10,6 +10,11 @@
     background-color: var(--header-bg);
     backdrop-filter: blur(10px);
   }
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* tighter spacing */
+  }
   
   .header.scrolled {
     box-shadow: 0 2px 10px var(--shadow);
@@ -45,7 +50,6 @@
   .navigation {
     display: flex;
     gap: 10px;
-    background: #000;
   }
   
   .nav-link {
