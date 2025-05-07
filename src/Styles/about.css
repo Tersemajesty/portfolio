@@ -15,7 +15,8 @@
   
   .about-image-wrapper {
     position: relative;
-    max-width: 400px;
+    max-width: 500px;
+    left: 15px;
   }
   
   .about-image-wrapper::before {
@@ -93,6 +94,14 @@
     .about-image-wrapper {
       width: 100%;
       max-width: 350px;
+    }
+
+    .about-image {
+      width: 110%;
+      height: auto;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px var(--shadow);
+      transition: var(--theme-transition);
     }
   }
   
