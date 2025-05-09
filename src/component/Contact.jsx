@@ -58,7 +58,7 @@ const Contact = () => {
             <div className="contact-card">
               <h3 className="contact-card-title">Let's Connect</h3>
               <p className="contact-card-text">
-                I'm currently open to new opportunities <br />and collaborations. 
+                I'm currently open to new opportunities and collaborations. 
                  Whether you have a question or just want to
                 say hi, I'll do my  <br />best to get back to  you!
               </p>
@@ -169,7 +169,7 @@ const Contact = () => {
           </AnimateOnScroll>
 
           <AnimateOnScroll className="contact-form-container" animation="fade-left" delay={0.3}>
-            <div className="contact-card">
+            <div className="contact-card1">
               {submitted ? (
                 <div className="form-success">
                   {/* Success Icon SVG */}

@@ -68,7 +68,7 @@ const Project = () => {
     <section id="projects" className="section projects-section">
       <div className="container">
         <AnimateOnScroll animation="fade-up">
-          <div className="section-tag">My Work</div>
+          <div className="section-tag">Portfolio</div>
           <h2 className="section-title">Featured Projects</h2>
         </AnimateOnScroll>
 

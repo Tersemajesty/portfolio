@@ -16,7 +16,6 @@ import "../Styles/about.css"
             <div className="about-content">
               <AnimateOnScroll animation="fade-up">
                 <div className="section-tag">About Me</div>
-                <h2 className="about-title">My Story</h2>
               </AnimateOnScroll>
     
               <AnimateOnScroll className="about-text stagger-children" animation="fade-up" delay={0.2}>
