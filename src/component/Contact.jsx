@@ -245,7 +245,6 @@ const Contact = () => {
                       ) : (
                         <>
                           Send Message
-                          <svg className="btn-icon" ></svg>
                         </>
                       )}
                     </button>
