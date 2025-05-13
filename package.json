@@ -4,13 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "start": "vite preview --port $PORT",
-  "lint": "eslint .",
-  "preview": "vite preview"
-},
+    "dev": "vite",
+    "build": "vite build",
+    "start": "vite preview --port $PORT",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
   "dependencies": {
+    "emailjs-com": "^3.2.0",
     "embla-carousel-autoplay": "^8.6.0",
     "embla-carousel-react": "^8.6.0",
     "react": "^19.0.0",

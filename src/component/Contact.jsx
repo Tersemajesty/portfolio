@@ -1,5 +1,6 @@
 import AnimateOnScroll from "../component/AnimateOnScroll"
 import "../Styles/contact.css"
+// import emailjs from 'emailjs-com'
 import { useState } from "react"
 
 const initialFormData = {
@@ -20,27 +21,39 @@ const Contact = () => {
   }
 
   const handleSubmit = async (e) => {
-    e.preventDefault()
-    setIsSubmitting(true)
-
+    e.preventDefault();
+    setIsSubmitting(true);
+  
     if (!formData.email.includes("@") || formData.message.trim().length < 10) {
-      alert("Please enter a valid email and a message with at least 10 characters.")
-      setIsSubmitting(false)
-      return
+      alert("Please enter a valid email and a message with at least 10 characters.");
+      setIsSubmitting(false);
+      return;
     }
-
+  
     try {
-      await new Promise((resolve) => setTimeout(resolve, 1500))
-      setFormData(initialFormData)
-      
-      setSubmitted(true)
-      setTimeout(() => setSubmitted(false), 5000)
+      const response = await fetch("https://usersauth-2.onrender.com/messages", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+  
+      if (!response.ok) {
+        throw new Error("Failed to send message.");
+      }
+  
+      setFormData(initialFormData);
+      setSubmitted(true);
+      setTimeout(() => setSubmitted(false), 5000);
     } catch (error) {
-      alert("Something went wrong. Please try again.")
+      console.error(error);
+      alert("Something went wrong. Please try again.");
     } finally {
-      setIsSubmitting(false)
+      setIsSubmitting(false);
     }
-  }
+  };
+  
 
   return (
     <section id="contact" className="section contact-section">
