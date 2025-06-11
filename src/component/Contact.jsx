@@ -1,6 +1,5 @@
 import AnimateOnScroll from "../component/AnimateOnScroll"
 import "../Styles/contact.css"
-// import emailjs from 'emailjs-com'
 import { useState } from "react"
 
 const initialFormData = {

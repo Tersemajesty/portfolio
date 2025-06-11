@@ -8,7 +8,7 @@ const testimonials = [
   {
     id: 1,
     name: "Colin Victor",
-    role: "Marketing Director",
+    role: "Marketing  Director",
     company: "CreativeMinds",
     image: "/images/profilepix.jpg",
     quote:

@@ -8,10 +8,10 @@ const Project = () => {
       title: "E-Commerce Website",
       description:
         "A fully responsive e-commerce platform with product filtering, cart functionality, and checkout process.",
-      image: "/placeholder.svg?height=300&width=500",
-      tags: ["React", "Next.js", "CSS", "Stripe"],
-      demoUrl: "https://example.com",
-      repoUrl: "https://github.com",
+      image: "/images/imh1.png",
+      tags: ["React",  "CSS", ],
+      demoUrl: "https://hi-alpha-two.vercel.app/",
+      repoUrl: "https://github.com/Tersemajesty/hi.git",
     },
     {
       id: 2,
@@ -42,25 +42,16 @@ const Project = () => {
       demoUrl: "https://example.com",
       repoUrl: "https://github.com",
     },
-    {
-      id: 5,
-      title: "Recipe Finder",
-      description:
-        "A recipe search application that allows users to find recipes based on ingredients they have at home.",
-      image: "/placeholder.svg?height=300&width=500",
-      tags: ["JavaScript", "React", "API Integration"],
-      demoUrl: "https://example.com",
-      repoUrl: "https://github.com",
-    },
+    
     {
       id: 6,
-      title: "Movie Database",
+      title: "Image Gallery",
       description:
-        "A movie database application that allows users to search for movies, view details, and save favorites.",
-      image: "/placeholder.svg?height=300&width=500",
-      tags: ["React", "CSS", "TMDB API"],
-      demoUrl: "https://example.com",
-      repoUrl: "https://github.com",
+        "An inage gallary application that allows users to upload images, view images, and save favorites.",
+      image: "/images/Image Gallery1.png",
+      tags: ["Html", "CSS", "Javascript"],
+      demoUrl: "https://image-gallary-rose.vercel.app/",
+      repoUrl: "https://github.com/Tersemajesty/imageGallary.git",
     },
   ]
 

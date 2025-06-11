@@ -9,7 +9,7 @@ import "../Styles/about.css"
           <div className="container about-container">
             <AnimateOnScroll className="about-image-container" animation="fade-right">
               <div className="about-image-wrapper">
-                <img src="/images/profilepix.jpg" alt="About Me" className="about-image" />
+                <img src="/images/mine.jpg" alt="About Me" className="about-image" />
               </div>
             </AnimateOnScroll>
     
@@ -33,7 +33,7 @@ import "../Styles/about.css"
               </AnimateOnScroll>
     
               <AnimateOnScroll animation="fade-up" delay={0.4}>
-                <a href="/resume.pdf" target="_blank" className="btn btn-outline about-resume-btn" rel="noreferrer">
+                <a href="/Okeke Chidera cv_031212.pdf" target="_blank" className="btn btn-outline about-resume-btn" rel="noreferrer">
                   Download Resume
                 </a>
               </AnimateOnScroll>

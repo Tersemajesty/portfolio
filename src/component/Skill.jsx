@@ -9,7 +9,7 @@ const Skill = () => {
     { name: "HTML5", level: 90, color: "pink" },
     { name: "CSS3", level: 85, color: "purple" },
     { name: "JavaScript", level: 90, color: "pink" },
-    { name: "TypeScript", level: 80, color: "purple" },
+    // { name: "TypeScript", level: 80, color: "purple" },
     { name: "React", level: 85, color: "pink" },
     { name: "Next.js", level: 80, color: "purple" },
   ]
